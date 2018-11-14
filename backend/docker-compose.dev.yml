@@ -1,0 +1,8 @@
+version: '3.6'
+services:
+
+  dev-db:
+    image: mongo
+    container_name: todolist_dev_db
+    ports:
+    - 27017:27017

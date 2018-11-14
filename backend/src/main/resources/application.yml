@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      database: todo-list
+server:
+  http2:
+    enabled: true
